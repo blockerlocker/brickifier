@@ -3,3 +3,4 @@ package_binaries.py
 -binaries/
 data/bldp.py
 data/color_tags.py
+data/__pycache__/
