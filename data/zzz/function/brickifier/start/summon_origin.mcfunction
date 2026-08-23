@@ -1,0 +1,1 @@
+$execute align xyz run summon marker ~ ~-$(node_depth_limit) ~ {Tags:[brickifier_origin]}

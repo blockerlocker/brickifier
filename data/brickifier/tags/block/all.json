@@ -1,0 +1,20 @@
+{
+    "values": [
+        "#bldp:color/black",
+        "#bldp:color/blue",
+        "#bldp:color/brown",
+        "#bldp:color/cyan",
+        "#bldp:color/gray",
+        "#bldp:color/green",
+        "#bldp:color/light_blue",
+        "#bldp:color/light_gray",
+        "#bldp:color/lime",
+        "#bldp:color/magenta",
+        "#bldp:color/orange",
+        "#bldp:color/pink",
+        "#bldp:color/purple",
+        "#bldp:color/red",
+        "#bldp:color/white",
+        "#bldp:color/yellow"
+    ]
+}

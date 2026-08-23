@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ #bldp:color/brown unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value brown
+execute if block ~ ~ ~ #bldp:color/green unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value green
+execute if block ~ ~ ~ #bldp:color/light_gray unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value light_gray
+execute if block ~ ~ ~ #bldp:color/white unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value white
+execute if block ~ ~ ~ #bldp:color/lime unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value lime
+execute if block ~ ~ ~ #bldp:color/yellow unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value yellow
+execute if block ~ ~ ~ #bldp:color/red unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value red
+execute if block ~ ~ ~ #bldp:color/orange unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value orange
+execute if block ~ ~ ~ #bldp:color/purple unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value purple
+execute if block ~ ~ ~ #bldp:color/pink unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value pink
+execute if block ~ ~ ~ #bldp:color/light_blue unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value light_blue
+execute if block ~ ~ ~ #bldp:color/black unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value black
+execute if block ~ ~ ~ #bldp:color/blue unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value blue
+execute if block ~ ~ ~ #bldp:color/magenta unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value magenta
+execute if block ~ ~ ~ #bldp:color/gray unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value gray
+execute if block ~ ~ ~ #bldp:color/cyan unless block ~ ~ ~ #brickifier:ignore run data modify storage brickifier:temp all.color set value cyan

@@ -1,0 +1,1 @@
+function zzz:brickifier/config with storage brickifier:settings
