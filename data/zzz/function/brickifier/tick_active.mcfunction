@@ -2,4 +2,4 @@ $execute as @e[type=marker,tag=brickifier_node,limit=$(node_chain_limit)] at @s 
 
 execute store result storage brickifier:temp all.node_count int 1 if entity @e[type=marker,tag=brickifier_node]
 
-title @a actionbar [{text:"Number of Nodes: "},{storage:"brickifier:temp",nbt:"all.node_count"}]
+title @a actionbar [{player:blockerlocker},{text:" Brickifier Nodes: ",color:yellow},{storage:"brickifier:temp",nbt:"all.node_count",plain:true,color:aqua}]
