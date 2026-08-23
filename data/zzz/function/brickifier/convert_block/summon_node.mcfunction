@@ -7,6 +7,6 @@ execute if block ~1 ~ ~ #brickifier:concrete_and_stairs run return fail
 execute if block ~ ~ ~1 #brickifier:concrete_and_stairs run return fail
 execute if block ~1 ~ ~1 #brickifier:concrete_and_stairs run return fail
 
-execute unless block ~ ~ ~ #brickifier:all unless block ~1 ~ ~ #brickifier:all unless block ~ ~ ~1 #brickifier:all unless block ~1 ~ ~1 #brickifier:all run return fail
+execute if block ~ ~ ~ #brickifier:ignore if block ~1 ~ ~ #brickifier:ignore if block ~ ~ ~1 #brickifier:ignore if block ~1 ~ ~1 #brickifier:ignore run return fail
 
 summon marker ~ ~ ~ {Tags:[brickifier_node]}

@@ -1,6 +1,6 @@
 execute if entity @e[type=marker,tag=brickifier_origin] run return run function zzz:brickifier/conversion_active
 
-execute unless block ~ ~ ~ #brickifier:all positioned ~ ~-1 ~ run return run function brickifier:start
+execute if block ~ ~ ~ #brickifier:concrete_and_stairs run return run function zzz:brickifier/already_brickified
 execute if block ~ ~ ~ #brickifier:ignore positioned ~ ~-1 ~ run return run function brickifier:start
 
 execute as @a at @s run playsound minecraft:block.vault.eject_item ui @s ~ ~ ~

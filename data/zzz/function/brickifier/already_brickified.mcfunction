@@ -1,0 +1,2 @@
+execute as @s at @s run playsound minecraft:block.vault.eject_item ui @s ~ ~ ~
+tellraw @s ["  ",{text:"< ",color:yellow},{player:blockerlocker},{text:" >",color:yellow},{text:" Blocks already brickified!",color:red}]
