@@ -1,2 +1,2 @@
 execute as @s at @s run playsound minecraft:block.vault.eject_item ui @s ~ ~ ~
-tellraw @s ["  ",{text:"< ",color:yellow},{player:blockerlocker},{text:" > Brickifier is already active somewhere else!",color:red}]
+tellraw @s ["  ",{text:"< ",color:yellow},{player:blockerlocker},{text:" >",color:yellow},{text:" Brickifier is already active somewhere else!",color:red}]

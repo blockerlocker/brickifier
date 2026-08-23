@@ -6,6 +6,8 @@ execute if block ~ ~ ~ #brickifier:ignore positioned ~ ~-1 ~ run return run func
 execute as @a at @s run playsound minecraft:block.vault.eject_item ui @s ~ ~ ~
 tellraw @a ["  ",{text:"< ",color:yellow},{player:blockerlocker},{text:" > Brickifier started",color:yellow}]
 
+gamerule random_tick_speed 0
+
 execute align xyz summon marker run function zzz:brickifier/start/half_xz
 
 data modify storage brickifier:temp all.x_decimal set string storage brickifier:temp all.half_x -2 -1

@@ -1,1 +1,1 @@
-execute unless data storage brickifier:settings node_chain_limit run data merge storage brickifier:settings {node_chain_limit:20,node_distance_limit:32,node_depth_limit:8}
+execute unless data storage brickifier:settings node_chain_limit run data merge storage brickifier:settings {node_chain_limit:32,node_distance_limit:32,node_depth_limit:8}
